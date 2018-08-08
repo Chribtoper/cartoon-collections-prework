@@ -8,6 +8,7 @@ def summon_captain_planet(array)
   newarr = array.collect |x| 
   x.upcase + "!"
 end
+end
 
 def long_planeteer_calls# code an argument here
   # Your code here
