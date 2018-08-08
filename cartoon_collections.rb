@@ -1,6 +1,7 @@
 def roll_call_dwarves(x)
+  i = 0
   x.collect do |r|
-    puts "#{r}"
+    puts "#{i + 1}. #{r}"
 end
 end
 
