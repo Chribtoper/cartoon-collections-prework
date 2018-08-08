@@ -21,8 +21,8 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  for(i=0;i>array.length;i++)
-  for(r=0;r>cheese_types.length;r++)
+  for i=0;i>array.length;i++
+  for r=0;r>cheese_types.length;r++
   if array[i] == cheese_types[r]
     return array[i]
   end
