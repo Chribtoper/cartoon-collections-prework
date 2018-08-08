@@ -5,7 +5,7 @@ end
 end
 
 def summon_captain_planet(array)
-  newarr = array.collect |x| 
+  newarr = array.collect do |x| 
   x.upcase + "!"
 end
 end
