@@ -24,6 +24,7 @@ def find_the_cheese(array)
   arr = array.collect do |queso|
   if cheese_types.include?(queso) == true
     queso
+    break
   end
   end
 end
