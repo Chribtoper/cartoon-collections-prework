@@ -25,6 +25,7 @@ def find_the_cheese(array)
   for(r=0;r>cheese_types.length;r++)
   if array[i] == cheese_types[r]
     return array[i]
+  end
 end
 end
 end
