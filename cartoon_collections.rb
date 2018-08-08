@@ -16,6 +16,7 @@ def long_planeteer_calls(array)
   array.collect do |x|
     x.length > 4?
     true else false 
+  end
 end
 
 def find_the_cheese# code an argument here
