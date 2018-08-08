@@ -5,10 +5,10 @@ end
 end
 
 def summon_captain_planet(array)
-  array.collect do |x|
+  newarr = array.collect do |x|
     "#{x.upcase}!"
   end
-  array 
+  newarr
 end
 
 def long_planeteer_calls# code an argument here
